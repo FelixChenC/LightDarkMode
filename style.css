@@ -267,3 +267,33 @@ input:checked + .slider::before {
 .projects a {
   border: none;
 }
+
+@media screen and (max-width: 600px) {
+  section {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  nav {
+    z-index: 10;
+    position: fixed;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding: 25px;
+    width: 80vw;
+    background: rgb(255 255 255 / 50%);
+  }
+
+  .theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    right: 25px;
+    top: 30px;
+  }
+}
