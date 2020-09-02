@@ -1,15 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pino Arts Gallery</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <!-- Navigation -->
+    <nav id="nav">
+      <a href="#home">Top</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">ARTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home section -->
+    <section id="home">
+      <div class="title-group">
+        <h1>Pino's Arts Gallery</h1>
+        <h2>See the eyes of animals</h2>
+        <img src="img/welcome_light.svg" alt="welcome" />
+        <p id="text-box">Welcome to the cat lover club</p>
+      </div>
+    </section>
+    <!-- About section -->
+    <section id="about">
+      <h1>Meet the Artist - Pino Cao</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>An Animal Artist</h2>
+          <img src="img/artist_light.svg" alt="artist" id="image1" />
+          <p>Catch the beautiful moment of animals</p>
+        </div>
+        <div class="image-container">
+          <h2>Paint</h2>
+          <img src="img/drawing_light.svg" alt="drawing" id="image2" />
+          <p>Love using color pencil and acrylic</p>
+        </div>
+        <div class="image-container">
+          <h2>Also an Engineer?!</h2>
+          <img src="img/engineer_light.svg" alt="engineer" id="image3" />
+          <p>You won't believe Pino is an Civil Engineer!</p>
+        </div>
+      </div>
+    </section>
+    <!-- Projects section -->
+    <section id="projects">
+      <h1>Sample Arts</h1>
+      <div class="arts">
+        <a
+          href="https://www.instagram.com/p/B_tfeZjpMtk/?utm_source=ig_web_copy_link"
+          target="_blank"
+        >
+          <img src="./img/cat1.png" alt="cat"
+        /></a>
+        <a
+          href="https://www.instagram.com/p/CDKEp_ApZGE/?utm_source=ig_web_copy_link"
+          target="_blank"
+        >
+          <img src="./img//tomo.png" alt="tomo"
+        /></a>
+        <a
+          href="https://www.instagram.com/p/B5HOuhpJkbg/?utm_source=ig_web_copy_link"
+          target="_blank"
+        >
+          <img src="./img/wolf.png" alt="wolf"
+        /></a>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section id="contact">
+      <div class="social-icons">
+        <i class="fab fa-github"
+          ><a href="https://github.com/FelixChenC"></a
+        ></i>
+        <i class="fab fa-linkedin"
+          ><a href="https://www.linkedin.com/in/jingwen-cao-86909254/"></a
+        ></i>
+        <i class="fab fa-instagram"
+          ><a href="https://www.instagram.com/pinoartgallery/"></a
+        ></i>
+      </div>
+    </section>
     <!-- Script -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
